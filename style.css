@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Poetsen+One&display=swap');
 
 body {
-  background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg");
+  background-image: url(https://giffiles.alphacoders.com/220/220124.gif);
+  background-repeat:no-repeat;
+  background-size:cover;
   text-align: center;
   margin: auto;
    font-family: "Poetsen One", serif;

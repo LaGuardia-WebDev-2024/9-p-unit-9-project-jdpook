@@ -4,16 +4,23 @@ setup = function() {
 
 var answer = 1;
 
+//background
 draw = function(){
-  background(100,100,100);
-  fill(0, 0, 0);
+  background(180,240,240);
+  fill(255);
+  stroke()
   ellipse(200, 200, 375, 375);
-  fill(60, 0, 255);
+  fill(180, 160, 205);
   triangle(200, 104, 280, 280, 120, 280);
   fill(255, 255, 255);
   
-  if (answer == 1) {
-    text("YOUR", 176, 200);
+  //answers
+  if (answer==1) {
+    text("Yes", 176, 200);
+    text("MESSAGE", 159, 229); 
+  }
+   if (answer==2) {
+    text("no", 176, 200);
     text("MESSAGE", 159, 229); 
   }
   
