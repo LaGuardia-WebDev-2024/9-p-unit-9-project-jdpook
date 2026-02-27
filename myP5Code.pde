@@ -5,6 +5,7 @@ setup = function() {
 var answer = 1;
 
 //background
+
 draw = function(){
   background(180,240,240);
   fill(255);
@@ -16,16 +17,27 @@ draw = function(){
   
   //answers
   if (answer==1) {
-    text("Yes", 176, 200);
-    text("MESSAGE", 159, 229); 
+    text("Yes", 176, 200); 
   }
    if (answer==2) {
     text("no", 176, 200);
-    text("MESSAGE", 159, 229); 
   }
-  
+  if (answer==3) {
+    text("maybe", 176, 200);
+  }
+ if (answer==4) {
+    text("Definitely", 176, 200);
+    text("yes", 176, 220);
+    }
+if (answer==5) {
+    text("Definitely", 176, 200);
+      text("yes", 176, 220);
+}
+//if(keyPressed{
+  //if(key == '1')
+//}
+ text("Press 1 for surprise!", 160, 10); 
 };
-
 mouseClicked = function(){
   answer = round(random(1, 5));
 };
