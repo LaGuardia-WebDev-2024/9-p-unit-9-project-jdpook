@@ -4,6 +4,8 @@ setup = function() {
 
 var answer = 1;
 
+var sasukeImage=loadImage("image-removebg-preview.png")
+
 //background
 
 draw = function(){
@@ -33,9 +35,9 @@ if (answer==5) {
     text("Definitely", 176, 200);
       text("yes", 176, 220);
 }
-//if(keyPressed{
-  //if(key == '1')
-//}
+
+image(sasukeImage,mouseX,mouseY,200,100)
+
  text("Press 1 for surprise!", 160, 10); 
 };
 mouseClicked = function(){
